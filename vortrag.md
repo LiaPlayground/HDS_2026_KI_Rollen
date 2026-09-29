@@ -566,9 +566,11 @@ Rückmeldungen der Studierenden weisen in dieselbe Richtung.
 
 # Was bleibt?
 
+     {{0-1}}
 > [!IMPORTANT]
 > **Lassen Sie uns KI als vielschichtige Mitstreiterin verstehen und nutzen — dieselbe Teamidee wirkt dabei unterschiedlich: Sie entlastet Lehrende und fordert Studierende heraus.**
 
+     {{0-1}}
 |                      | Materialgenerierung                            | Teamtraining                                                    |
 | -------------------- | ---------------------------------------------- | --------------------------------------------------------------- |
 | **Team von …**       | Lehrenden                                      | Studierenden                                                    |
@@ -583,6 +585,8 @@ Rückmeldungen der Studierenden weisen in dieselbe Richtung.
 <div>
 
 > __Vielen Dank für Ihr Interesse. Ich freue mich auf die Diskussion mit Ihnen.__
+
+Prof. Dr. Sebastian Zug, TU Bergakademie Freiberg
 
 </div>
 <div>
@@ -606,7 +610,7 @@ ihre Ergebnisse prüfen und ihr widersprechen müssen, fördern genau diese
 Haltung. Ich danke Ihnen für Ihre Aufmerksamkeit und freue mich auf die
 Diskussion.
 
-## Literatur
+# Literatur
 
 **Eigene Arbeiten** (TU Bergakademie Freiberg)
 
@@ -626,41 +630,3 @@ Diskussion.
 - Bassner, P., Lenk-Ostendorf, B., Beinstingel, R., Wasner, T. & Krusche, S. (2026). *Less stress, better scores, same learning: The dissociation of performance and learning in AI-supported programming education.* Computers and Education: AI 10, 100537. [doi:10.1016/j.caeai.2025.100537](https://doi.org/10.1016/j.caeai.2025.100537)
 - Bosse, E., Wannemacher, K. & Lübcke, M. (2026). *Die KI-Nutzung in Studium und Lehre. Review auf Grundlage empirischer Studien.* HFD-Arbeitspapier 91. [PDF](https://hochschulforumdigitalisierung.de/wp-content/uploads/2026/01/HFD_AP_91_Review_KI-Nutzung_in_Studium_und_Lehre.pdf)
 - Wissenschaftsrat (2026). *Intellektuelle Souveränität: Empfehlungen für die Hochschulbildung in Zeiten von generativer KI.* Drs. 3319-26, Köln. [doi:10.57674/1evx-t906](https://doi.org/10.57674/1evx-t906)
-
---{{0}}--
-Die Arbeiten, auf die sich dieser Beitrag stützt, sind hier aufgeführt und
-über den QR-Code auch im Vortrag selbst abrufbar.
-
-# Vielen Dank!
-
-<h2>„Aus einem Chatbot wird ein Team, wenn wir jeder KI eine Rolle geben.“</h2>
-
-<div class="cols">
-<div>
-
-**Ein Team, zwei Seiten**
-
-1. **KI-Team der Lehrenden** — ergänzt und entlastet bei der Materialgenerierung
-2. **KI-Team der Studierenden** — fordert heraus im Teamtraining
-
-Aus der Rolle folgen Erwartung, Kontext, Befugnisse und Verlässlichkeit.
-
-</div>
-<div>
-
-<center>
-
-**Alles zum Mitnehmen**
-
-[qr-code](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/HDS_2026_KI_Rollen/main/vortrag.md "Diesen Vortrag im Browser öffnen")
-
-</center>
-
-</div>
-</div>
-
-> **Fragen?**
->
-> **Prof. Dr. Sebastian Zug** · [sebastian.zug@informatik.tu-freiberg.de](mailto:sebastian.zug@informatik.tu-freiberg.de)
->
-> TU Bergakademie Freiberg · Institut für Informatik
