@@ -32,6 +32,10 @@ edit: true
   flex: 1;
   min-width: 280px;
 }
+
+.letzte-zeile-gruen tr:last-child td {
+  background-color: rgba(46, 160, 67, 0.22);
+}
 @end
 
 -->
@@ -75,68 +79,47 @@ betrachten.
 
 ## Rollen der KI in der Lehre
 
-> __Wie setzen Lehrende und Lernende KI heute ein — und welche Rollen fehlen noch?__
-
-<div class="cols">
-<div>
-
-**Für Lehrende**
+> __Wie setzen Lehrende und Lernende KI heute ein — und welche Rollen werden dabei umgesetzt?__
 
      {{0-1}}
-| Unterstützung durch die KI                            | Studienlage¹               |
-| ----------------------------------------------------- | -------------------------- |
-| schlägt Einstiege, Beispiele und Methoden vor         | ✅ 37–63 %²                |
-| erstellt Materialien, Aufgaben und Quizze             | ⚠️ nicht getrennt erfasst² |
-| schärft Lernziele und Constructive Alignment          | ✅ 19–32 %                 |
-| bearbeitet Aufgabenblätter als simulierte Studierende | ❌ nicht erhoben           |
-| …                                                     |                            |
+| Für ...      | Unterstützung durch die KI                            | Studienlage¹                                |
+| ------------ | ----------------------------------------------------- | ------------------------------------------- |
+| **Lehrende** | schlägt Einstiege, Beispiele und Methoden vor         | ✅ 37–63 %²                                 |
+|              | erstellt Materialien, Aufgaben und Quizze             | ⚠️ nicht getrennt erfasst²                  |
+|              | schärft Lernziele und Constructive Alignment          | ✅ 19–32 %                                  |
+|              | bearbeitet Aufgabenblätter als simulierte Studierende | ❌ nicht erhoben                            |
+|              | …                                                     |                                             |
+| **Lernende** | erklärt Inhalte und beantwortet Fragen                | ✅ 42–67 %                                  |
+|              | fragt ab und erzeugt Übungsaufgaben                   | ✅ 43–53 %                                  |
+|              | gibt Feedback auf Struktur und Sprache                | ⚠️ häufiger: KI schreibt selbst (27–64 %)   |
+|              | spielt Kundin, Patient oder Mandantin                 | ❌ nicht erhoben                            |
+|              | …                                                     |                                             |
 
-     {{1}}
-| Unterstützung durch die KI                            | Rolle der KI             |
-| ----------------------------------------------------- | ------------------------ |
-| schlägt Einstiege, Beispiele und Methoden vor         | **Ideengeber**           |
-| erstellt Materialien, Aufgaben und Quizze             | **Generator**            |
-| schärft Lernziele und Constructive Alignment          | **Didaktischer Berater** |
-| bearbeitet Aufgabenblätter als simulierte Studierende | **Tester**               |
-| …                                                     |                          |
+     {{1-3}}
+| Für ...      | Unterstützung durch die KI                            | Rolle der KI             |
+| ------------ | ----------------------------------------------------- | ------------------------ |
+| **Lehrende** | schlägt Einstiege, Beispiele und Methoden vor         | **Ideengeber**           |
+|              | erstellt Materialien, Aufgaben und Quizze             | **Generator**            |
+|              | schärft Lernziele und Constructive Alignment          | **Didaktischer Berater** |
+|              | bearbeitet Aufgabenblätter als simulierte Studierende | **Tester**               |
+|              | …                                                     |                          |
+| **Lernende** | erklärt Inhalte und beantwortet Fragen                | **Digitaler Tutor**      |
+|              | fragt ab und erzeugt Übungsaufgaben                   | **Übungspartner**        |
+|              | gibt Feedback auf Struktur und Sprache                | **Schreibpartner**       |
+|              | spielt Kundin, Patient oder Mandantin                 | **Rollenspielpartner**   |
+|              | …                                                     |                          |
 
-</div>
-<div>
-
-
-**Für Lernende**
-
-     {{0-1}}
-| Unterstützung durch die KI             | Studienlage¹                              |
-| -------------------------------------- | ----------------------------------------- |
-| erklärt Inhalte und beantwortet Fragen | ✅ 42–67 %                                |
-| fragt ab und erzeugt Übungsaufgaben    | ✅ 43–53 %                                |
-| gibt Feedback auf Struktur und Sprache | ⚠️ häufiger: KI schreibt selbst (27–64 %) |
-| spielt Kundin, Patient oder Mandantin  | ❌ nicht erhoben                          |
-| …                                      |                                           |
-
-     {{1}}
-| Unterstützung durch die KI             | Rolle der KI           |
-| -------------------------------------- | ---------------------- |
-| erklärt Inhalte und beantwortet Fragen | **Digitaler Tutor**    |
-| fragt ab und erzeugt Übungsaufgaben    | **Übungspartner**      |
-| gibt Feedback auf Struktur und Sprache | **Schreibpartner**     |
-| spielt Kundin, Patient oder Mandantin  | **Rollenspielpartner** |
-| …                                      |                        |
-
-</div>
-</div>
 
      {{0-1}}
 <small>✅ verbreitet · ⚠️ nur indirekt erfasst · ❌ in keiner Studie erhoben —
 ¹ Anteil der Befragten laut Review von Bosse, Wannemacher & Lübcke (2026) über
 15 Studien. ² Gemeinsame Kategorie „Planung & Vorbereitung“.</small>
 
-     {{2}}
+     {{1}}
 > [!TIP]
 > **Wer KI einsetzt, muss ihre Rolle konkret benennen — erst mit diesem Verständnis lässt sich deren Unterstützung effizient nutzen.**
 
-     {{3}}
+     {{2}}
 > [!IMPORTANT]
 > **Lehrende brauchen mehrere Rollen, die sie unterstützen, Lernende mehrere, die sie fördern und fordern — aus dem Chatbot wird ein Team.**
 
@@ -164,23 +147,37 @@ bereitstellen und woran wir das Ergebnis messen. Der Wissenschaftsrat
 empfiehlt, die Rollen von Lehrenden und Lernenden neu zu bestimmen. Ich möchte
 ergänzen: Dies gilt auch für die Rolle der KI.
 
---{{3}}--
-Die zweite These: Eine einzelne Rolle genügt selten. Lehrende benötigen
-mehrere Rollen, die sie unterstützen, Studierende mehrere, die sie fördern und
-fordern. Aus dem Chatbot wird so ein Team.
 
 ## Agenda
 
 **Unser Weg durch die nächsten 20 Minuten**
 
-     {{0}}
-1. **Materialgenerierung: KI als Kollegin der Lehrenden** — vom einzelnen
-   Prompt zum Team aus Agenten
-2. **Teamtraining: KI als Kollegin der Studierenden** — ein Semester mit vier
-   KI-Teammitgliedern
+<div class="cols">
+<div>
 
-> Zweimal ein Team aus vier Agenten und Menschen — mit entgegengesetzter
-> Wirkung: Es entlastet die Lehrenden und fordert die Studierenden heraus.
+> [!NOTE]
+> **Teil 1 · Materialgenerierung**
+>
+> __Wie kann ein KI-Team Lehrende bei der Erstellung von Lehrmaterial unterstützen?__
+>
+> Vom einzelnen Prompt zum Team aus Agenten
+>
+> **Wirkung:** entlastet
+
+</div>
+<div>
+
+> [!NOTE]
+> **Teil 2 · Teamtraining**
+>
+> __Wie kann ein KI-Team Studierende in der Teamarbeit fördern und fordern?__
+>
+> Ein Semester mit vier KI-Teammitgliedern
+>
+> **Wirkung:** fordert heraus
+
+</div>
+</div>
 
 --{{0}}--
 Ich gehe in zwei Schritten vor. In beiden Fällen ist die KI nicht ein
@@ -239,7 +236,7 @@ einen Physik Grundkurs als ...`
 | ?                 |                 |
 
 {{2-3}}
-<!-- data-type="none" -->
+<!-- data-type="none" class="letzte-zeile-gruen" -->
 | Zielformat           | erzeugte Tokens |
 | -------------------- | --------------: |
 | SCORM-Paket          |   1.657 – 2.487 |
@@ -274,14 +271,7 @@ das so schlank ist wie Markdown und dennoch Interaktivität erlaubt.
 
 --{{2}}--
 Ein solches Format ist LiaScript. Es benötigt gut 300 Tokens – kaum mehr als
-der Inhalt selbst und in derselben Größenordnung wie statisches Markdown.
-
---{{3}}--
-Zur Einordnung gehört eine Einschränkung: Ohne Unterstützung kennen die
-Modelle die LiaScript-Syntax nicht hinreichend und scheitern. Mit einer
-Kurzreferenz von fünf Zeilen im Auftrag gelang die Erstellung hingegen in
-allen achtzehn Durchläufen und bei jedem Modell. Wie das Ergebnis aussieht,
-zeige ich im Folgenden.
+der Inhalt selbst und in derselben Größenordnung wie statisches Markdown unterstützt aber trotzdem dynamische Inhalte.
 
 ## Das Übungsblatt in LiaScript
 
@@ -408,24 +398,18 @@ möchten, lade ich herzlich zur Mitwirkung ein.
 
 # KI als Kollegin der Studierenden
 
-> [!IMPORTANT]
-> **Teamskills sind wichtig - aber wie trainiert man diese in der akademischen Ausbildung?**
+> __Teamfähigkeit ist wichtig — aber wie trainiert man sie in der akademischen Ausbildung?__
 
 + der Lernerfolg ist vom Zufall der Teamstruktur abhängig
 + die Nachbildung von realen Abläufen des Berufslebens kann wegen der Lehr-Lern-Situation nicht gelingen
 + die Reflexion aus Sicht der Lehrenden ist wegen des fehlenden Einblicks schwierig
 
+{{1-2}}
 > [!IMPORTANT]
 > **Idee:** Wir stellen ein berufsbildspezifisches Team durch KI-Agenten nach. Anspruchsvolle Chefs, überpenible Kollegen, erwartungsvolle Kunden ... so dass alle Studierenden die gleichen Randbedingungen haben.
 
-> [!NOTE]
-> Abbruch in Programmierkursen
-> (Hawlitschek et al. 2019) · Unterstützung in Online-Laboren
-> (Hawlitschek et al. 2022) · Teamarbeit in der Lehre (Hawlitschek et al.
-> 2021, 2022, 2023) · KI-Kompetenz von Studierenden (Göhler 2025) ·
-> KI-Agenten im Team (Göhler et al. 2026)
-
-<h4>Volker Göhler, Simon Hörtzsch, Sebastian Zug (TU Bergakademie Freiberg) · Anja Hawlitschek (OVGU Magdeburg)</h4>
+{{1-2}}
+<small>Göhler, V., Hörtzsch, S., Zug, S. & Hawlitschek, A. (2026). *Integrating AI Agents and Repository Systems in Software Development Education.* DELFI 2026, GI, 361–365. [doi:10.18420/delfi2026_33](https://doi.org/10.18420/DELFI2026_33)</small>
 
 --{{0}}--
 Ich wechsle nun die Perspektive. Teamfähigkeit ist in nahezu jedem Berufsfeld
@@ -446,12 +430,12 @@ die ausführliche Publikation befindet sich in der Begutachtung.
 
 > __Die Agenten arbeiten nicht im Chatfenster, sondern auf der Projektplattform des Kurses: Sie verteilen Aufträge, prüfen Abgaben und liefern selbst Arbeit ab.__
 
-|            | Rolle            | Was sie tut                                               | Was die Studierenden dabei lernen          |
-| ---------- | ---------------- | --------------------------------------------------------- | ------------------------------------------ |
-| **Maria**  | Projektleiterin  | verteilt Arbeitsaufträge, gibt Tipps                      | Aufträge verstehen und abarbeiten          |
-| **Lisa**   | Prüferin         | prüft jede Abgabe — und kann sie zurückweisen             | mit Kritik umgehen, nachbessern            |
-| **Kevin**  | Praktikant       | arbeitet nur nach Aufträgen der Studierenden — mit Fehlern | genau beauftragen, fremde Arbeit prüfen    |
-| **Jürgen** | Auftraggeber     | äußert vage, teils widersprüchliche Wünsche               | Anforderungen klären, auch Nein sagen      |
+| Persona    | Rolle           | Was sie tut                                                | Was die Studierenden dabei lernen       |
+| ---------- | --------------- | ---------------------------------------------------------- | --------------------------------------- |
+| **Maria**  | Projektleiterin | verteilt Arbeitsaufträge, gibt Tipps                       | Aufträge verstehen und abarbeiten       |
+| **Lisa**   | Prüferin        | prüft jede Abgabe — und kann sie zurückweisen              | mit Kritik umgehen, nachbessern         |
+| **Kevin**  | Praktikant      | arbeitet nur nach Aufträgen der Studierenden — mit Fehlern | genau beauftragen, fremde Arbeit prüfen |
+| **Jürgen** | Auftraggeber    | äußert vage, teils widersprüchliche Wünsche                | Anforderungen klären, auch Nein sagen   |
 
      {{1}}
 > [!NOTE]
@@ -472,11 +456,19 @@ enthalten Fehler. Die Studierenden lernen so, Aufgaben präzise zu beauftragen
 und Ergebnisse zu prüfen. Genau dies bezeichnet der Wissenschaftsrat als Meta-
 Arbeit – hier wird sie zum Gegenstand des Lernens.
 
+     {{2}}
+> __Im Laufe des Semesters wechseln die Studierenden ihre Rolle in diesem Team: vom Selbermachen zum Beauftragen und Prüfen.__
+
+
+--{{2}}--
+Im Verlauf des Semesters arbeiten die Studierenden zunächst selbst und werden
+von Lisa geprüft. Später kehrt sich das Verhältnis um: Sie beauftragen Kevin
+und prüfen seine Arbeit. Diese Kompetenz gewinnt mit dem Einsatz von KI in
+nahezu allen Berufen an Bedeutung.
+
 ## Übertragbar auf Ihr Fach?
 
-> __Im Laufe des Semesters wechseln die Studierenden die Rolle: vom Selbermachen zum Beauftragen und Prüfen.__
-
-     {{1}}
+     {{0-2}}
 | Rolle der KI           | Bauingenieurwesen               | Öffentliche Verwaltung               | Lehrerbildung                            |
 | ---------------------- | ------------------------------- | ------------------------------------ | ---------------------------------------- |
 | **Projektleitung**     | Bauleiterin verteilt Aufgaben   | Referatsleiterin weist Vorgänge zu   | Mentorin plant die Unterrichtsreihe      |
@@ -484,24 +476,18 @@ Arbeit – hier wird sie zum Gegenstand des Lernens.
 | **Praktikant**         | fehlerhafte Mengenermittlung    | fehlerhafter Bescheidentwurf         | unausgereifter Stundenentwurf            |
 | **Auftraggeber**       | Bauherr mit vagen Wünschen      | Bürgerin mit unklarem Anliegen       | Schulleitung mit neuen Vorgaben          |
 
-     {{2}}
+     {{1}}
 > [!NOTE]
 > **Datenschutz:** Alles läuft auf Servern der Universität. Keine Daten der
 > Studierenden gehen an kommerzielle KI-Anbieter.
 
 --{{0}}--
-Im Verlauf des Semesters arbeiten die Studierenden zunächst selbst und werden
-von Lisa geprüft. Später kehrt sich das Verhältnis um: Sie beauftragen Kevin
-und prüfen seine Arbeit. Diese Kompetenz gewinnt mit dem Einsatz von KI in
-nahezu allen Berufen an Bedeutung.
-
---{{1}}--
 Der Ansatz ist nicht auf die Informatik beschränkt. Denkbar sind etwa eine
 Prüfstatikerin, die einen Plan zurückweist, ein fehlerhafter Bescheidentwurf
 in der Verwaltung oder eine Schulleitung mit neuen Vorgaben. Jede dieser
 Rollen ließe sich durch einen Agenten übernehmen.
 
---{{2}}--
+--{{1}}--
 Für den Einsatz in der Lehre ist ein weiterer Punkt wesentlich: Die KI läuft
 auf Servern der Universität mit einem offenen Modell; Daten der Studierenden
 verlassen die Hochschule nicht. Dies entspricht der Empfehlung des
@@ -517,8 +503,8 @@ Modelle anstelle proprietärer Dienste zu nutzen.
 | ----------------------- | ---------: |
 | Maria (Projektleiterin) |       0.63 |
 | Lisa (Prüferin)         |       0.06 |
-| Jürgen (Auftraggeber)   |      −0.29 |
-| Kevin (Praktikant)      |      −0.37 |
+| Jürgen (Auftraggeber)   |      -0.29 |
+| Kevin (Praktikant)      |      -0.37 |
 
      {{1}}
 **Lisa polarisiert:** Werte von −1,8 bis +1,8 — ein Mittelwert nahe null aus
@@ -583,23 +569,17 @@ Rückmeldungen der Studierenden weisen in dieselbe Richtung.
 > [!IMPORTANT]
 > **Lassen Sie uns KI als vielschichtige Mitstreiterin verstehen und nutzen — dieselbe Teamidee wirkt dabei unterschiedlich: Sie entlastet Lehrende und fordert Studierende heraus.**
 
-|                         | Materialgenerierung                              | Teamtraining                                                  |
-| ----------------------- | ------------------------------------------------ | ------------------------------------------------------------- |
-| **Team von …**          | Lehrenden                                        | Studierenden                                                  |
-| **Vier Agenten**        | Didaktikerin, Gestalter, Testperson, Technik     | Projektleiterin, Prüferin, Praktikant, Auftraggeber           |
-| **Wer prüft wen?**      | Testperson prüft das Material der Didaktikerin   | Prüferin prüft Studierende, Studierende prüfen den Praktikanten |
-| **Warum KI?**           | Didaktische Beratung fehlt für die meisten Lehrveranstaltungen | Erfahrene Rollen können Studierende einander nicht vorspielen |
-| **Wirkung**             | ergänzt und entlastet                            | fordert heraus — gelernt wird an der Reibung                  |
-| **Wer entscheidet?**    | Lehrende geben frei                              | Studierende beauftragen und prüfen                            |
+|                      | Materialgenerierung                            | Teamtraining                                                    |
+| -------------------- | ---------------------------------------------- | --------------------------------------------------------------- |
+| **Team von …**       | Lehrenden                                      | Studierenden                                                    |
+| **Vier Agenten**     | Didaktikerin, Gestalter, Testperson, Technik   | Projektleiterin, Prüferin, Praktikant, Auftraggeber             |
+| **Wer prüft wen?**   | Testperson prüft das Material der Didaktikerin | Prüferin prüft Studierende, Studierende prüfen den Praktikanten |
+| **Warum KI?**        | Effizienz in der Erstellung                    | Erfahrene Rollen können Studierende einander nicht vorspielen   |
+| **Wirkung**          | ergänzt und entlastet                          | fordert heraus — gelernt wird an der Reibung                    |
+| **Wer entscheidet?** | Lehrende geben frei                            | gemischt, KI / Studierende beauftragen und prüfen                              |
 
      {{1}}
-> [!NOTE]
-> **Intellektuelle Souveränität** (Wissenschaftsrat 2026): selbstbestimmt denken
-> und urteilen — auch, indem man bequeme Vereinfachung hinterfragt. Rollen, in
-> denen Studierende KI beauftragen, prüfen und ihr widersprechen, üben genau das.
-
->  [!QUESTION]
->  Vielen Dank für das Interesse. Ich freue mich auf die Diskussion mit Ihnen.
+> __Vielen Dank für Ihr Interesse. Ich freue mich auf die Diskussion mit Ihnen.__
 
 --{{0}}--
 In beiden Beispielen haben wir nicht einen einzelnen Chatbot gesehen, sondern
@@ -621,7 +601,7 @@ Diskussion.
 
 - Dietrich, A., Hyadi, J., Aubel, I., Göhler, V., Domsch, H. & Zug, S. (2026). *LiaScript as an AI-Ready Authoring Format: Comparing Skill-Based and Agentic Course Generation.* DELFI 2026, GI, 487–490. [doi:10.18420/delfi2026_53](https://doi.org/10.18420/DELFI2026_53)
 - Zug, S., Dietrich, A., Aubel, I., Lommatzsch, M. & Göhler, V. (2026). *Designed but Not Used? A Feature Adoption Analysis of LiaScript Courses.* DELFI 2026, GI, 179–192. [doi:10.18420/delfi2026_17](https://doi.org/10.18420/DELFI2026_17)
-- Göhler, V., Hörtzsch, S., Zug, S. & Hawlitschek, A. (2026). *Integrating AI Agents and Repository Systems in Software Development Education.* DELFI 2026, GI. [doi:10.18420/delfi2026_33](https://doi.org/10.18420/DELFI2026_33)
+- Göhler, V., Hörtzsch, S., Zug, S. & Hawlitschek, A. (2026). *Integrating AI Agents and Repository Systems in Software Development Education.* DELFI 2026, GI, 361–365. [doi:10.18420/delfi2026_33](https://doi.org/10.18420/DELFI2026_33)
 - Göhler, V. (2025). *Critical or Confident? AI Literacy and Student–AI Collaboration in Higher Education.* SIGCITE '25, ACM, 119–126. [doi:10.1145/3769694.3771145](https://doi.org/10.1145/3769694.3771145)
 - Hawlitschek, A., Rudolf, G., Berndt, S. & Zug, S. (2023). *Automated alerts to avoid unfavourable interaction patterns in collaborative learning: Which design do students prefer?* DELFI 2023, GI. [doi:10.18420/delfi2023-33](https://doi.org/10.18420/delfi2023-33)
 - Hawlitschek, A., Rudolf, G. & Zug, S. (2022). *Informatikstudierende als Teamplayer. Wie die Integration von Teamarbeit in die Lehre gelingen kann.* DELFI 2022, GI. [doi:10.18420/delfi2022-019](https://doi.org/10.18420/delfi2022-019)
