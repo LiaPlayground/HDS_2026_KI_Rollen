@@ -579,7 +579,18 @@ Rückmeldungen der Studierenden weisen in dieselbe Richtung.
 | **Wer entscheidet?** | Lehrende geben frei                            | gemischt, KI / Studierende beauftragen und prüfen                              |
 
      {{1}}
+<div class="cols">
+<div>
+
 > __Vielen Dank für Ihr Interesse. Ich freue mich auf die Diskussion mit Ihnen.__
+
+</div>
+<div>
+
+[qr-code](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/HDS_2026_KI_Rollen/main/vortrag.md "Diesen Vortrag im Browser öffnen")
+
+</div>
+</div>
 
 --{{0}}--
 In beiden Beispielen haben wir nicht einen einzelnen Chatbot gesehen, sondern
@@ -641,7 +652,7 @@ Aus der Rolle folgen Erwartung, Kontext, Befugnisse und Verlässlichkeit.
 
 **Alles zum Mitnehmen**
 
-[qr-code](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/HDS_2026_KI_Rollen/main/vortrag.md "Vortrag und Token-Experiment")
+[qr-code](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/HDS_2026_KI_Rollen/main/vortrag.md "Diesen Vortrag im Browser öffnen")
 
 </center>
 
