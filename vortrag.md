@@ -37,13 +37,13 @@ edit: true
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
+  justify-content: space-around;
+  gap: 1.5rem 1.5rem;
   margin-top: 2rem;
 }
 
 .logos img {
-  height: 52px;
+  height: 66px;
   width: auto;
   max-width: 100%;
   object-fit: contain;
