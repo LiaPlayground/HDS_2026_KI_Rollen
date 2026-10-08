@@ -17,4 +17,5 @@ Markdown-Datei, die im Browser als Folien, Skript oder vertont dargestellt wird.
 
 ## Lizenz
 
-Inhalte unter [CC BY 4.0](LICENSE).
+Inhalte unter [CC BY 4.0](LICENSE). Ausgenommen sind die Logos der Förderer
+(`img/logo_*.png`); sie unterliegen den Rechten der jeweiligen Inhaber.

@@ -33,6 +33,23 @@ edit: true
   min-width: 280px;
 }
 
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.logos img {
+  height: 52px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  background: white;
+}
+
 .letzte-zeile-gruen tr:last-child td {
   background-color: rgba(46, 160, 67, 0.22);
 }
@@ -46,9 +63,6 @@ edit: true
 
 <h2>Agentische KI in der Hochschullehre</h2>
 
-<div class="cols">
-<div>
-
 <h4>Prof. Dr. Sebastian Zug</h4>
 
 <h4>TU Bergakademie Freiberg, Institut für Informatik</h4>
@@ -57,17 +71,15 @@ edit: true
 >
 > __Klosterhof St. Afra, Meißen, 29. September 2026__
 
-</div>
-<div>
-
-[qr-code](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/HDS_2026_KI_Rollen/main/vortrag.md)
-
-</div>
+<div class="logos">
+<img src="img/logo_landesinitiative_sachsen.png" alt="Bildungsportal Sachsen – Die sächsische E-Learning-Landesinitiative">
+<img src="img/logo_nel.png" alt="NeL – Netzwerk Landeseinrichtungen für digitale Hochschullehre">
+<img src="img/logo_stil.png" alt="Gefördert durch die Stiftung Innovation in der Hochschullehre">
 </div>
 
 ---
 
-Dieser Foliensatz steht unter einer Creative-Commons-Lizenz (CC BY 4.0). Der Quelltext liegt auf [GitHub](https://github.com/LiaPlayground/HDS_2026_KI_Rollen).
+<small>Dieser Foliensatz steht unter einer Creative-Commons-Lizenz (CC BY 4.0); ausgenommen sind die Logos der Förderer, die den Rechten der jeweiligen Inhaber unterliegen. Der Quelltext liegt auf [GitHub](https://github.com/LiaPlayground/HDS_2026_KI_Rollen).</small>
 
 
 --{{0}}--
