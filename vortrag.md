@@ -72,9 +72,9 @@ edit: true
 > __Klosterhof St. Afra, Meißen, 29. September 2026__
 
 <div class="logos">
-<img src="img/logo_landesinitiative_sachsen.png" alt="Bildungsportal Sachsen – Die sächsische E-Learning-Landesinitiative">
-<img src="img/logo_nel.png" alt="NeL – Netzwerk Landeseinrichtungen für digitale Hochschullehre">
-<img src="img/logo_stil.png" alt="Gefördert durch die Stiftung Innovation in der Hochschullehre">
+<img src="img/logo_landesinitiative_sachsen.png" style="height: 90px" alt="Bildungsportal Sachsen – Die sächsische E-Learning-Landesinitiative">
+<img src="img/logo_nel.png" style="height: 56px" alt="NeL – Netzwerk Landeseinrichtungen für digitale Hochschullehre">
+<img src="img/logo_stil.png" style="height: 130px" alt="Gefördert durch die Stiftung Innovation in der Hochschullehre">
 </div>
 
 ---
